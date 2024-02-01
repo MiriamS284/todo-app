@@ -1,5 +1,11 @@
 # Todo App
 
+# Screenshots - App-Overview
+
+![Screenshot Todo-App Desktop](./public/screenshot/desktop_1.png)
+![Screenshot Todo-App Desktop Dark](./public/screenshot/desktop_3.png)
+![Screenshot Todo-App Mobile](./public/screenshot/mobile_1.png)
+
 ## Overview
 
 This Todo App is a minimalist and intuitive web application designed to help users manage their daily tasks with ease. Built using React, it offers features such as task addition, task completion toggling, filtering tasks by status, and a light/dark theme toggle for a personalized user experience.
@@ -7,7 +13,7 @@ This Todo App is a minimalist and intuitive web application designed to help use
 ## Technology Stack
 
 - **React**: Utilizes React functional components and hooks for state management and lifecycle events, providing a responsive and interactive user interface.
-- **CSS**: Custom stylesheets are used to enhance the UI and provide a seamless user experience across different devices.
+- **CSS**: Custom stylesheets are used to enhance the UI and provide a seamless user experience across Desktop-Screen and Mobile devices.
 
 ## Features
 
@@ -62,3 +68,4 @@ Contributions to improve the app are welcome. Please feel free to fork the repos
 ## License
 
 This project is open-sourced under the MIT license.
+This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW).
