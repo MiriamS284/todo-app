@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This Todo App is a minimalist and intuitive web application designed to help users manage their daily tasks with ease. Built using React, it offers features such as task addition, task completion toggling, filtering tasks by status, and a light/dark theme toggle for a personalized user experience.
 
-In the project directory, you can run:
+## Technology Stack
 
-### `npm start`
+- **React**: Utilizes React functional components and hooks for state management and lifecycle events, providing a responsive and interactive user interface.
+- **CSS**: Custom stylesheets are used to enhance the UI and provide a seamless user experience across different devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Task Management
 
-### `npm test`
+- **Add Tasks**: Users can add new tasks to their list, each with a unique identifier and a completion status.
+- **Toggle Task Completion**: Each task's completion status can be toggled to reflect its current state.
+- **Delete Tasks**: Users have the option to remove tasks from the list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Filtering
 
-### `npm run build`
+- **Task Filtering**: Tasks can be filtered based on their completion status, allowing users to focus on active or completed tasks as needed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Themes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Light/Dark Theme Toggle**: Supports light and dark themes, allowing users to choose their preferred visual mode for enhanced accessibility and user comfort.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Components
 
-### `npm run eject`
+### `App.js`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- The root component that orchestrates the application, managing the main state, including the todo list, theme preference, and filter status.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Header.js`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Displays the application's header with a theme toggle switch.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `TodoForm.js`
 
-## Learn More
+- A form component that allows users to input and submit new tasks.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `TodoList.js`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Renders the list of tasks based on the active filter status, handling task deletion and providing a count of remaining tasks.
 
-### Code Splitting
+### `Footer.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Presents the footer of the application, typically containing authorship or credit information.
 
-### Analyzing the Bundle Size
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run this application locally:
 
-### Making a Progressive Web App
+1. Clone the repository to your local machine.
+2. Install the dependencies by running `npm install` in the project directory.
+3. Start the application with `npm start`. The app will be available at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions to improve the app are welcome. Please feel free to fork the repository and submit pull requests with your enhancements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-sourced under the MIT license.
