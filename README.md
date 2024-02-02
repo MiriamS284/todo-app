@@ -14,6 +14,7 @@ This Todo App is a minimalist and intuitive web application designed to help use
 
 - **React**: Utilizes React functional components and hooks for state management and lifecycle events, providing a responsive and interactive user interface.
 - **CSS**: Custom stylesheets are used to enhance the UI and provide a seamless user experience across Desktop-Screen and Mobile devices.
+- **react-beautiful-dnd**: Implements drag-and-drop functionality for task reordering within the list.
 
 ## Features
 
@@ -22,6 +23,10 @@ This Todo App is a minimalist and intuitive web application designed to help use
 - **Add Tasks**: Users can add new tasks to their list, each with a unique identifier and a completion status.
 - **Toggle Task Completion**: Each task's completion status can be toggled to reflect its current state.
 - **Delete Tasks**: Users have the option to remove tasks from the list.
+
+### Task Reordering with Drag and Drop
+
+- **Drag and Drop**: Tasks can be easily reordered within the list by dragging and dropping them to a new position.
 
 ### Filtering
 
